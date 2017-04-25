@@ -15,6 +15,8 @@
 		317DE8C71EAF433300B9756C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317DE8C51EAF433300B9756C /* LaunchScreen.storyboard */; };
 		317DE8D21EAF433300B9756C /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 317DE8D11EAF433300B9756C /* TimerTests.m */; };
 		317DE8DD1EAF433300B9756C /* TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 317DE8DC1EAF433300B9756C /* TimerUITests.m */; };
+		317DE8EC1EAF434900B9756C /* CountDownTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 317DE8EB1EAF434900B9756C /* CountDownTimerView.m */; };
+		317DE8EF1EAF435500B9756C /* NormalTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 317DE8EE1EAF435500B9756C /* NormalTimerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		317DE8D81EAF433300B9756C /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317DE8DC1EAF433300B9756C /* TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerUITests.m; sourceTree = "<group>"; };
 		317DE8DE1EAF433300B9756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		317DE8EA1EAF434900B9756C /* CountDownTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountDownTimerView.h; path = ../CountDownTimerView.h; sourceTree = "<group>"; };
+		317DE8EB1EAF434900B9756C /* CountDownTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountDownTimerView.m; path = ../CountDownTimerView.m; sourceTree = "<group>"; };
+		317DE8ED1EAF435500B9756C /* NormalTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NormalTimerView.h; path = ../NormalTimerView.h; sourceTree = "<group>"; };
+		317DE8EE1EAF435500B9756C /* NormalTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NormalTimerView.m; path = ../NormalTimerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		317DE8B61EAF433300B9756C /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				317DE8EA1EAF434900B9756C /* CountDownTimerView.h */,
+				317DE8EB1EAF434900B9756C /* CountDownTimerView.m */,
+				317DE8ED1EAF435500B9756C /* NormalTimerView.h */,
+				317DE8EE1EAF435500B9756C /* NormalTimerView.m */,
 				317DE8BA1EAF433300B9756C /* AppDelegate.h */,
 				317DE8BB1EAF433300B9756C /* AppDelegate.m */,
 				317DE8BD1EAF433300B9756C /* ViewController.h */,
@@ -276,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317DE8EC1EAF434900B9756C /* CountDownTimerView.m in Sources */,
 				317DE8BF1EAF433300B9756C /* ViewController.m in Sources */,
+				317DE8EF1EAF435500B9756C /* NormalTimerView.m in Sources */,
 				317DE8BC1EAF433300B9756C /* AppDelegate.m in Sources */,
 				317DE8B91EAF433300B9756C /* main.m in Sources */,
 			);
